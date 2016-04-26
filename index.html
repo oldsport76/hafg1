@@ -31,20 +31,62 @@
   </head>
 
   <body>
-  	<div class="container-fluid">
-  		<h1>Hello World!</h1>
+    <div class="container">
+      <h1>Welcome to da ToDo App!</h1>
 
-  		<div class="row">
-  			<div class="col-md-4 col-lg-3 col-sm-6 col-xs-12"><div class="grey-box">Test 1</div></div>
-  			<div class="col-md-4 col-lg-3 col-sm-6 col-xs-12"><div class="grey-box">Test 2</div></div>
-        <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12"><div class="grey-box">Test 3</div></div>
-  			<div class="col-md-4 col-lg-3 col-sm-6 col-xs-12"><div class="grey-box">Test 4</div></div>
-  			<div class="col-md-4 col-lg-3 col-sm-6 col-xs-12"><div class="grey-box">Test 5</div></div>
-  			<div class="col-md-4 col-lg-3 col-sm-6 col-xs-12"><div class="grey-box">Test 6</div></div>
-            <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12"><div class="grey-box">Test 7</div></div>
-            <div class="col-md-4 col-lg-3 col-sm-6 col-xs-12"><div class="grey-box">Test 8</div></div>
-  		</div>
-  	</div>
+      <div class="table-responsive">
+        <table class = "table table-bordered table-responsive">
+   <caption>ToDo List</caption>
+   <thead>
+      <tr>
+         <th>ToDo</th>
+         <th>Deadline</th>
+         <th>Completed</th>
+      </tr>
+   </thead>
+   
+   <tbody>
+      <tr>
+         <td>Eating Kebap</td>
+         <td>29.04.16</td>
+         <td>27%</td>
+         <td><button type="button" class="btn btn-warning">Edit</button></td>
+         <td><button type="button" class="btn btn-danger">Delete</button></td>
+      </tr>
+      
+      <tr>
+         <td>Taking part in import-export business</td>
+         <td>20.04.16</td>
+         <td>42%</td>
+         <td><button type="button" class="btn btn-warning">Edit</button></td>
+         <td><button type="button" class="btn btn-danger">Delete</button></td>
+      </tr>
+      
+      <tr>
+         <td>Eating falafel</td>
+         <td>07.07.16</td>
+         <td>56%</td>
+         <td><button type="button" class="btn btn-warning">Edit</button></td>
+         <td><button type="button" class="btn btn-danger">Delete</button></td>
+      </tr>
+
+      <tr>
+         <td>Enjoying time with Rolf Niedermayer</td>
+         <td>31.07.17</td>
+         <td>77%</td>
+         <td><button type="button" class="btn btn-warning">Edit</button></td>
+         <td><button type="button" class="btn btn-danger">Delete</button></td>
+      </tr>
+   </tbody>
+  
+</table>
+      </div>
+
+      <a class="btn btn-success" href="createtodo.html">Create ToDo</a>
+      <a class="btn btn-info" href="impressum.html">Info</a>
+
+
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
